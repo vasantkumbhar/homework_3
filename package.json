@@ -1,0 +1,35 @@
+{
+  "name": "homework_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasantkumbhar/homework_2.git"
+  },
+  "author": "Vasant Kumbhar <vasant_kumbhar@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasantkumbhar/homework_2/issues"
+  },
+  "homepage": "https://github.com/vasantkumbhar/homework_2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "csv-parse": "^4.4.3",
+    "csvtojson": "^2.0.10",
+    "fs": "0.0.1-security",
+    "node-watch": "^0.6.2",
+    "through2": "^3.0.1"
+  }
+}
