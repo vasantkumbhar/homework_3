@@ -2,9 +2,9 @@
   "name": "homework_2",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "utils/streams.js",
   "scripts": {
-    "start": "nodemon --exec babel-node app.js",
+    "start": "nodemon --exec babel-node utils/streams.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
